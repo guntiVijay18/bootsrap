@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"
+        integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .slide {
+            animation-name: scroll;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            width: calc(100%*4);
+        }
+
+        .slider {
+            overflow: hidden;
+            display: flex;
+            white-space: nowrap;
+            box-sizing: border-box;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            50% {
+                transform: translateX(-25%);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <br>
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-md-2 bg-dark"></div>
+
+                <div class="col-md-3 bg-dark p-3 text-white text-start">
+
+                    <h1 class="text-uppercase">high school</h1>
+                </div>
+
+                <div class="col-md-1 bg-dark"></div>
+
+                <div class="col-md-6 bg-dark">
+                    <br>
+                    <button class="btn btn-primary text-white fs-5 "><a class="text-decoration-none text-white" href="bt1.html">Home</a></button>
+                    <button class="btn btn-primary text-white fs-5 "><a class="text-decoration-none text-white" href="bt2.html">About</a></button>
+                    <button class="btn btn-primary text-white fs-5 "><a class="text-decoration-none text-white" href="bt3.html">courses</a></button>
+                    <button class="btn btn-primary text-white fs-5 "><a class="text-decoration-none text-white" href="bt4.html">gallery</a></button>
+                    <button class="btn btn-primary text-white fs-5 "><a class="text-decoration-none text-white" href="bt5.html">contact Us</a></button>
+                </div>
+            </div>
+            <br>
+
+
+    </header>
+
+    <div class="slider">
+        <div class="slide">
+            <img src="https://drreddysfoundation.org/wp-content/uploads/2024/03/2.jpg" alt="" height="700px"
+                width="1520px">
+            <img src="https://drreddysfoundation.org/wp-content/uploads/2023/01/Overview-Page_Website-BG.png" alt=""
+                height="700px" width="1520px">
+            <img src="https://drreddysfoundation.org/wp-content/uploads/2024/03/DSCF4476-Edit-1-2048x1365.jpg" alt=""
+                height="700px" width="1520px">
+
+            <img src="https://drreddysfoundation.org/wp-content/uploads/2024/03/2.jpg" alt="" height="700px"
+                width="1520px">
+            <img src="https://drreddysfoundation.org/wp-content/uploads/2023/01/Overview-Page_Website-BG.png" alt=""
+                height="700px" width="1520px">
+            <img src="https://drreddysfoundation.org/wp-content/uploads/2024/03/DSCF4476-Edit-1-2048x1365.jpg" alt=""
+                height="700px" width="1520px">
+        </div>
+    </div>
+</body>
+
+</html>
